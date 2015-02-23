@@ -3,8 +3,9 @@ WriteMakefile(
     NAME         => 'Devel::Caller::IgnoreNamespaces',
     META_MERGE => {
         license => 'other',
-        resource => {
-	    repository => 'https://github.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces'
+        resources => {
+	    repository => 'https://github.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces',
+	    bugtracker => 'https://github.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces/issues'
         }
     },
     VERSION_FROM => 'lib/Devel/Caller/IgnoreNamespaces.pm',
