@@ -5,7 +5,7 @@ lib/Devel/Caller/IgnoreNamespaces.pm
 Makefile.PL
 MANIFEST
 README
-t/00_alltests.t
+t/basics.t
 t/lib/a.pm
 t/lib/b.pm
 t/lib/c.pm
