@@ -5,6 +5,7 @@ lib/Devel/Caller/IgnoreNamespaces.pm
 Makefile.PL
 MANIFEST
 README
+t/already-overridden.t
 t/basics.t
 t/lib/a.pm
 t/lib/b.pm
