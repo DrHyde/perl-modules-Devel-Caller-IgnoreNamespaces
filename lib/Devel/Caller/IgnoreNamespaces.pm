@@ -20,7 +20,11 @@ if(defined(&CORE::GLOBAL::caller)) {
   my $i=1;
   my $name_cache;
   while (1) {
-    my @caller = $orig_global_caller->($i++) or return
+    my @caller = $orig_global_caller->() eq 'DB'
+                   ? do { package # break this up so PAUSE etc don't whine
+                          DB; $orig_global_caller->($i++) }
+                   : $orig_global_caller->($i++)
+                 or return;
     $caller[3] = $name_cache if $name_cache;
     $name_cache = (grep { $caller[0] eq $_ } @NAMESPACES) # <-- !!!!
       ? $caller[3]

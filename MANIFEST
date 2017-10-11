@@ -7,6 +7,7 @@ MANIFEST
 README
 t/already-overridden.t
 t/basics.t
+t/db.t
 t/lib/a.pm
 t/lib/b.pm
 t/lib/c.pm
