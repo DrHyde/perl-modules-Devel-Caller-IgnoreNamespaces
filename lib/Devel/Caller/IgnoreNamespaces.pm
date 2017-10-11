@@ -73,9 +73,10 @@ Takes a list of packages that caller() will ignore in future.
 
 =head1 BUGS and FEEDBACK
 
-Please report any bugs using L<http://rt.cpan.org>.  The best bug
-reports include a file with a test in it that fails with the current
-code and will pass once the bug is fixed.
+Bug reports should be made on Github or by email.
+
+The best bug reports include a file with a test in it that fails with the
+current code and will pass once the bug is fixed.
 
 I welcome feedback, especially constructive criticism, by email.
 
